@@ -11,6 +11,7 @@ public class Coordinates {
         Point p=new Point(23,34);
         removeValue(lineCoordinates,p);
         outPutValues(lineCoordinates);
+        System.out.println("succesfully updated");
     }
 
     private static void removeValue(List<Point> lineCoordinates, Point p) {
