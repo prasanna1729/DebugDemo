@@ -5,13 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Coordinates {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         List<Point> lineCoordinates = createCordinates();
         outPutValues(lineCoordinates);
         Point p=new Point(23,34);
         removeValue(lineCoordinates,p);
         outPutValues(lineCoordinates);
         System.out.println("succesfully updated");
+        System.out.println("so easy to update succesfully updated");
     }
 
     private static void removeValue(List<Point> lineCoordinates, Point p) {
